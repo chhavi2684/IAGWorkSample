@@ -1,9 +1,9 @@
 /**
  * @description       : REST API for getting the toy's details
- * @author            : chhavi2684@gmail.com
+ * @author            : chhavi.arya@orix.com.au
  * @group             : 
- * @last modified on  : 08-12-2020
- * @last modified by  : chhavi2684@gmail.com
+ * @last modified on  : 08-13-2020
+ * @last modified by  : chhavi.arya@orix.com.au
  * Modifications Log 
  * Ver   Date         Author                    Modification
  * 1.0   08-12-2020   chhavi2684@gmail.com   Initial Version
@@ -15,7 +15,7 @@ global class ClassToyDetailREST {
        public List<ToyDetail> toyDetailResponse;
        public Integer statusCode;
     }
-	
+	/* Details of the toy to be returned */
     global class ToyDetail{
         String status;
         String toyName;
